@@ -1,0 +1,34 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-450202:
+    - stylefmt > stylelint > colorguard > postcss-reporter > lodash:
+        patched: '2019-07-08T00:07:31.711Z'
+    - stylefmt > postcss-sorting > lodash:
+        patched: '2019-07-08T00:07:31.711Z'
+    - stylefmt > stylelint > lodash:
+        patched: '2019-07-08T00:07:31.711Z'
+    - stylefmt > stylelint > postcss-reporter > lodash:
+        patched: '2019-07-08T00:07:31.711Z'
+    - stylefmt > stylelint > doiuse > lodash:
+        patched: '2019-07-08T00:07:31.711Z'
+    - stylefmt > stylelint > table > lodash:
+        patched: '2019-07-08T00:07:31.711Z'
+    - stylefmt > stylelint-order > stylelint > lodash:
+        patched: '2019-07-08T00:07:31.711Z'
+    - stylefmt > stylelint-order > lodash:
+        patched: '2019-07-08T00:07:31.711Z'
+    - stylefmt > stylelint > stylehacks > postcss-reporter > lodash:
+        patched: '2019-07-08T00:07:31.711Z'
+    - stylefmt > stylelint-order > stylelint > table > lodash:
+        patched: '2019-07-08T00:07:31.711Z'
+    - stylefmt > stylelint-order > stylelint > doiuse > lodash:
+        patched: '2019-07-08T00:07:31.711Z'
+    - stylefmt > stylelint-order > stylelint > postcss-reporter > lodash:
+        patched: '2019-07-08T00:07:31.711Z'
+    - stylefmt > stylelint-order > stylelint > colorguard > postcss-reporter > lodash:
+        patched: '2019-07-08T00:07:31.711Z'
+    - stylefmt > stylelint-order > stylelint > stylehacks > postcss-reporter > lodash:
+        patched: '2019-07-08T00:07:31.711Z'
